@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return redirect('home');
-});
+Route::get('/', 'PagesController@home');
+Route::get('wtf', 'PagesController@wtf');
 
 Route::get('profile', array('as' => 'profile', function()
     {
@@ -22,6 +21,7 @@ Route::get('profile', array('as' => 'profile', function()
 	
 Route::get('contacts', array('as' => 'contacts', function()
     {
+
         return View::make('contacts');
     }));
 	
