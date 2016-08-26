@@ -15,6 +15,56 @@ Route::get('/', function () {
     return redirect('home');
 });
 
+Route::get('profile', array('as' => 'profile', function()
+    {
+        return View::make('profile/profile');
+    }));
+	
+Route::get('contacts', array('as' => 'contacts', function()
+    {
+        return View::make('contacts');
+    }));
+	
+Route::get('services', array('as' => 'services', function()
+    {
+        return View::make('services');
+    }));
+
+Route::get('artists', array('as' => 'artists', function()
+    {
+        return View::make('artists');
+    }));
+	
+Route::get('files', array('as' => 'files', function()
+    {
+        return View::make('files');
+    }));
+	
+Route::get('calendar', array('as' => 'calendar', function()
+    {
+        return View::make('calendar');
+    }));
+
+Route::get('community', array('as' => 'community', function()
+    {
+        return View::make('community');
+    }));
+	
+Route::get('groups', array('as' => 'groups', function()
+    {
+        return View::make('groups');
+    }));
+	
+Route::get('reports', array('as' => 'reports', function()
+    {
+        return View::make('reports');
+    }));
+	
+Route::get('gigs', array('as' => 'gigs', function()
+    {
+        return View::make('gigs');
+    }));
+	
 
 /*
 |--------------------------------------------------------------------------

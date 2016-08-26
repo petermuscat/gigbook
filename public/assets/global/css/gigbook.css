@@ -1,0 +1,39 @@
+/*TOOLBAR*/
+.page-toolbar {
+background-color: rgb(227, 227, 227);
+margin-left: 235px;
+font-size: 18px;
+padding: 0px 0px 0px 20px;
+}
+
+.page-sidebar-closed .page-content-wrapper .page-toolbar {
+    margin-left: 45px !important;
+}
+
+.page-toolbar .controls {
+display: inline-block;
+float: right;
+font-size: 24px;
+padding: 5px 30px;
+}
+
+.page-toolbar .controls a {
+margin-left: 5px;
+}
+
+.page-toolbar .controls ,
+.page-toolbar .toolbar-title {
+display: inline-block;
+}
+
+.page-toolbar .toolbar-title h3 {
+margin: 10px 0px;
+}
+
+
+/*PROFILE PAGE */
+.profile-userpic img {
+width: 80%;
+height: auto;
+}
+

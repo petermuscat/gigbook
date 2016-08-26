@@ -14,7 +14,9 @@
         "jlapp/swaggervel": "dev-master",
         "doctrine/dbal": "~2.3",
         "infyomlabs/laravel-generator": "dev-master",
-        "infyomlabs/metronic-templates": "dev-master"
+        "infyomlabs/metronic-templates": "dev-master",
+		"laravelista/ekko": "~1.2"
+
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
